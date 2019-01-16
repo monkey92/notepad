@@ -1,0 +1,18 @@
+
+# usermod 示例
+
+## 将一个已有用户增加到一个已有用户组中
+
+将一个已有用户 cnzhx 增加到一个已有用户组 apache 中，使此用户组成为该用户的附加用户组，可以使用带 -a 参数的 usermod  指令。-a 代表 append， 也就是将用户添加到新用户组中而不必离开原有的其他用户组。不过需要与 -G 选项配合使用：
+
+usermod -a -G apache cnzhx
+
+如果要同时将 cnzhx 的主要用户组改为 apache，则直接使用 -g 选项：
+
+usermod -g apache cnzhx
+
+如果要将一个用户从某个组中删除，则
+
+gpasswd -d user group
+
+但是这个时候需要保证 group 不是 user 的主组。
