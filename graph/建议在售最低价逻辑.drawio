@@ -1,0 +1,53 @@
+<mxfile host="www.draw.io" modified="2019-10-15T12:28:01.970Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="_81lL9gEzvacM0TE1xue" version="12.1.1" type="github" pages="1">
+  <diagram id="DXneB5p0if6gyR7F7ciQ" name="第 1 页">
+    <mxGraphModel dx="1610" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="OZafIqopw2vcqVbTR9fD-14" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OZafIqopw2vcqVbTR9fD-9" target="OZafIqopw2vcqVbTR9fD-10">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="OZafIqopw2vcqVbTR9fD-9" value="求购最高价-1分" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="100" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="OZafIqopw2vcqVbTR9fD-25" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OZafIqopw2vcqVbTR9fD-10" target="OZafIqopw2vcqVbTR9fD-24">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="OZafIqopw2vcqVbTR9fD-10" value="建议最低价" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="160" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="OZafIqopw2vcqVbTR9fD-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;entryX=-0.042;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OZafIqopw2vcqVbTR9fD-12" target="OZafIqopw2vcqVbTR9fD-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="220" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZafIqopw2vcqVbTR9fD-12" value="最近10笔成功的订单平均价格" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="220" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="OZafIqopw2vcqVbTR9fD-16" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OZafIqopw2vcqVbTR9fD-15" target="OZafIqopw2vcqVbTR9fD-10">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="OZafIqopw2vcqVbTR9fD-15" value="没有订单取steam参考价" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="340" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="OZafIqopw2vcqVbTR9fD-20" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OZafIqopw2vcqVbTR9fD-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930" y="230" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZafIqopw2vcqVbTR9fD-17" value="imba_product的在售最低价 &amp;lt;&amp;nbsp; 订单的平均价&amp;nbsp; 取在售最低价 * 0.9&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="460" width="500" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="OZafIqopw2vcqVbTR9fD-22" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.583;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OZafIqopw2vcqVbTR9fD-21" target="OZafIqopw2vcqVbTR9fD-10">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="OZafIqopw2vcqVbTR9fD-21" value="imba_product的在售最低价 &amp;gt;= 订单的平均价&amp;nbsp; 取订单的平均价" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="550" width="500" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="OZafIqopw2vcqVbTR9fD-24" value="最终价格&amp;lt;0.1&amp;nbsp;取 0.01" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="160" width="120" height="60" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
